@@ -30,18 +30,20 @@ Demographic Impact: Does high population density affect the total number of taxi
 dbt_project/
 │
 ├── models/
-|   |   
-|   ├── staging/
-│       └── stg_taxi_trips.sql          # Staging model for raw taxi trips data
-|   ├── mart/     
-|       └── dim_taxi_trips_details.sql # Dimension model for detailed trip information
-|        └── dim_taxi_charges.sql       # Dimension model for charges per trip 
-| 
+│   │   
+│   ├── staging/
+│   │   └── stg_taxi_trips.sql          # Staging model for raw taxi trips data
+│   ├── mart/     
+│       ├── dim_taxi_trips_details.sql  # Dimension model for detailed trip information
+│       └── dim_taxi_charges.sql        # Dimension model for charges per trip 
+│ 
 ├── ingestion/
-│   └── get_raw_data.py                 # Python script that extracts the data from Chicago's data portal to load in duckdb but opted to change to BigQuery
+│   └── get_raw_data.py                 # Python script that extracts the data
+│                                       # from Chicago's data portal to load in duckdb 
+│                                       # but opted to change to BigQuery
 │
-├── target/                            # DBT generated files post-run (e.g., logs, manifest)
-├── dbt_profiles.yml                   # Configuration file for DBT profiles
+├── target/                             # DBT generated files post-run (e.g., logs, manifest)
+├── dbt_profiles.yml                    # Configuration file for DBT profiles
 └── README.md
 
 
