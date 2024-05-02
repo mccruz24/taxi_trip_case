@@ -30,6 +30,7 @@ Performance Analysis: Which taxi company performs better in terms of service met
 Time Analysis: What are the peak hours for taxi drivers in Chicago?
 
 Economic Analysis: Is there a correlation between the fare, total trip cost, and the tips received?
+
                  : Does the distance traveled influence the tips given by customers?
 
 Payment Preferences: How do customers of taxi companies choose to pay?
