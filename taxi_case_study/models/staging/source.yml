@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: data_cityofchicago
+    database: duet-ai-02-417714
+    schema: taxi_trips
+    tables:
+      - name: taxi_trips_2023
