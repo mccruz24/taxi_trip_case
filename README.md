@@ -24,12 +24,18 @@ Develop dimension tables such as dim_taxi_trips_details, dim_taxi_drivers, dim_t
 The project aims to answer the following analytical questions:
 
 Volume Analysis: How many taxi trips were completed in Chicago during 2023?
+
 Performance Analysis: Which taxi company performs better in terms of service metrics such as fare, tips, and customer satisfaction?
+
 Time Analysis: What are the peak hours for taxi drivers in Chicago?
+
 Economic Analysis: Is there a correlation between the fare, total trip cost, and the tips received?
-Economic Analysis: Does the distance traveled influence the tips given by customers?
+                 : Does the distance traveled influence the tips given by customers?
+
 Payment Preferences: How do customers of taxi companies choose to pay?
+
 Demographic Impact: Does high population density affect the total number of taxi trips in the city?
+
 
 dbt_project/
 │
