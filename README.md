@@ -5,6 +5,8 @@ This DBT project is developed to analyze taxi trip data from the city of Chicago
 
 The primary objective of this project is to transform raw taxi trip data into a more structured and query-optimized format using staging and dimension tables. This structured data will then be used to answer key business questions regarding taxi trips within the city.
 
+Note: Initially I wanted to use duckdb as database in this project. However, I have faced difficulties in utilizing duckdb when developing the project. I opted to use BigQuery instead.
+
 
 ## Data Pipeline
 Data Extraction: Extract the 2023 taxi trip data from the City of Chicago's data portal.
