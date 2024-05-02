@@ -8,9 +8,13 @@ The primary objective of this project is to transform raw taxi trip data into a 
 
 ## Data Pipeline
 Data Extraction: Extract the 2023 taxi trip data from the City of Chicago's data portal.
+
 Data Storage: Upload the extracted CSV file to Google Cloud Storage.
+
 Data Loading: Load the data into a BigQuery table from the CSV file stored in Google Cloud Storage.
+
 DBT Initialization: Set up a DBT project with the BigQuery plugin. Configure the project to use a service account created in GCP for secure authentication.
+
 Data Transformation:
 Create a staging table (stg_taxi_trips) to convert raw data column types into appropriate data types.
 Develop dimension tables such as dim_taxi_trips_details, dim_taxi_drivers, dim_time, and dim_locations to support analytical queries.
