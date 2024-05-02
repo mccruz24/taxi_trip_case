@@ -16,7 +16,7 @@ def fetch_all_taxi_trips(max_records=1000000):
         params = {
             '$limit': current_fetch_limit,
             '$offset': offset,
-            '$$app_token': '5jNhUg7vBcdYjRiuT3Gnqa8yt'
+            '$$app_token': 'token_here'
         }
 
         response = requests.get(url, params=params)
